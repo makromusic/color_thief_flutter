@@ -14,7 +14,7 @@ dependencies:
   quantize_dart:
     git:
       url: git://github.com/makromusic/quantize_dart.git
-      ref: ed7d77f
+      ref: ed7d77f3414efa8fa2162f34380507be6b048842
 
 dev_dependencies:
   flutter_test:
