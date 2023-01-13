@@ -1,12 +1,11 @@
 name: color_thief_flutter
 description: Grab the color palette from an image, the Flutter implementation of color-thief.
-version: 1.0.2
-author: ShiLei<nervouself@qq.com>
+version: 1.0.3
 homepage: https://github.com/nervouself/color_thief_flutter
 publish_to: none
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -14,9 +13,8 @@ dependencies:
 
   quantize_dart:
     git:
-      url: git://github.com/tudutu/quantize_dart.git
-      ref: e082204
-    # path: ../quantize_dart
+      url: git://github.com/makromusic/quantize_dart.git
+      ref: ed7d77f
 
 dev_dependencies:
   flutter_test:
